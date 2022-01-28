@@ -1,1 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+:root {
+    --header-height: 3.5rem;
+    --first-hue: 23;
+    --sat: 100%;
+    --lig: 65%;
+    --second-hue: 5;
+    --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+    --first-color-alt: hsl(var(--first-hue), var(--sat), 61%);
+    --tile-color: ;
+    --text-color: ;
+    --text-color-light: ;
+    --body-color: ;
+    --conainer-color: ;
+}
