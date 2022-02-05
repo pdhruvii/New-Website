@@ -2,10 +2,10 @@
 :root {
     --header-height: 3.5rem;
     /*Hues/colour palette*/
-    --first-hue: 23;
-    --sat: 100%;
-    --lig: 65%;
-    --second-hue: 5;
+    --first-hue: 250;
+    --sat: 66%;
+    --lig: 75%;
+    --second-hue: 219;
     /*Individual object colours
     hsl: hue, saturation, light*/
     --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
