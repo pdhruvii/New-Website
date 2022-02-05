@@ -128,3 +128,35 @@ img {
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--body-color);
+    z-index: var(--z-fixed);
+}
+
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo {
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+    transition: 0.4s;
+}
+
+.nav_logo:hover {
+    color: var(--first-color-alt);
+}
+
+.nav_menu {
+    position: fixed;
+    bottom: 1rem;
+    background-color: hsl(var(--second-hue), 32%, 16%, 0.8);
+}
