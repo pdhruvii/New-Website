@@ -265,3 +265,17 @@ navigation menu and spacing them out horizontally*/
     font-size: 1rem;
     transition: 0.4s;
 }
+
+.home_social_link:hover {
+    background-color: var(--first-color);
+    color: white;
+}
+
+
+/*.home_social_link::after {
+    content: '';
+    width: 32px;
+    height: 2px;
+    background-color: var(--first-color);
+    transform: rotate(90deg) translate(16px, 3px);
+}*/
