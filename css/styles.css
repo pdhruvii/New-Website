@@ -255,7 +255,7 @@ navigation menu and spacing them out horizontally*/
     row-gap: 0.5rem;
 }
 
-.home_social-link {
+.home_social_link {
     width: max-content;
     background-color: var(--container-color);
     color: var(--first-color);
