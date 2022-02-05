@@ -2,10 +2,10 @@
 :root {
     --header-height: 3.5rem;
     /*Hues/colour palette*/
-    --first-hue: 250;
-    --sat: 66%;
-    --lig: 75%;
-    --second-hue: 219;
+    --first-hue: 23;
+    --sat: 100%;
+    --lig: 65%;
+    --second-hue: -400;
     /*Individual object colours
     hsl: hue, saturation, light*/
     --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
@@ -279,3 +279,24 @@ navigation menu and spacing them out horizontally*/
     background-color: var(--first-color);
     transform: rotate(90deg) translate(16px, 3px);
 }*/
+
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--body-color);
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
+    transition: 0.4s;
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+    color: var(--body-color);
+}
+
+.button--ghost {
+    background-color: transparent;
+    border: 2px solid var(--first-color);
+    color: var(--first-color);
+}
