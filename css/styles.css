@@ -192,3 +192,38 @@ navigation menu and spacing them out horizontally*/
     background: linear-gradient(180deg, hsla(var(--first-hue), var(--sat), var(--lig), 1), hsla(var(--first-hue), var(--sat), var(--lig), 0.2));
     box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), 0.4);
 }
+
+.home_container {
+    position: relative;
+    row-gap: 4.5rem;
+    padding-top: 2rem;
+}
+
+.home_data {
+    text-align: center;
+}
+
+.home_greeting,
+.home_education {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.home_greeting {
+    display: block;
+    color: var(--title-color);
+    margin-bottom: 0.25rem;
+}
+
+.home_education {
+    color: var(--text-color);
+    margin-bottom: 2.5rem;
+}
+
+.home_name {
+    font-size: var(--biggest-font-size);
+}
+
+.home_img {
+    width: 160px;
+}
