@@ -32,7 +32,8 @@
     --z-modal: 1000;
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 100%) {
+    /*initially 968px*/
      :root {
         --biggest-font-size: 2.5rem;
         --h1-font-size: 2.25rem;
@@ -95,8 +96,10 @@ img {
 
 .container {
     max-width: 100%;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*display: flex;
+    justify-content: center;*/
 }
 
 .grid {
@@ -158,10 +161,12 @@ img {
 .nav_menu {
     position: fixed;
     bottom: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: hsla(var(--second-hue), 32%, 16%, 0.8);
     /*Adding bar for navigation menu icons on the bottom of the page
     and rounding the border instead of keeping it rectangular*/
-    width: 90%;
+    width: 50%;
     border-radius: 4rem;
     padding: 1rem 2.25rem;
     backdrop-filter: blur(10px);
